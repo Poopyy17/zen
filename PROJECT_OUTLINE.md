@@ -1,4 +1,4 @@
-# Tech Stack Outline
+# Project Outline
 
 ## Overview
 
