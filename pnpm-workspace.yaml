@@ -9,4 +9,5 @@ packages:
   - "form-library"
   - "tenant-middleware"
 allowBuilds:
+  bcrypt: true
   unrs-resolver: true

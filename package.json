@@ -8,7 +8,15 @@
     "lint": "turbo run lint",
     "test": "turbo run test",
     "typecheck": "turbo run typecheck",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "seed:super-admin": "node --env-file=core-service/.env scripts/seed-super-admin.mjs",
+    "seed:super-admin:tenant2": "TENANT_SLUG=tenant2 TENANT_NAME=Tenant2 TENANT_DB_NAME=test-tenant2 PLATFORM_DB_NAME=test-tenant2 node --env-file=core-service/.env scripts/seed-super-admin.mjs"
+  },
+  "dependencies": {
+    "backend-library": "workspace:*",
+    "bcrypt": "^6.0.0",
+    "mongodb": "^7.6.0",
+    "ulid": "^3.0.2"
   },
   "devDependencies": {
     "turbo": "latest",
