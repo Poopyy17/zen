@@ -1,0 +1,12 @@
+packages:
+  - "web"
+  - "gateway"
+  - "core-service"
+  - "staff-management"
+  - "case-management"
+  - "ui-library"
+  - "backend-library"
+  - "form-library"
+  - "tenant-middleware"
+allowBuilds:
+  unrs-resolver: true

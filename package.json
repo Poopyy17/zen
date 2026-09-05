@@ -1,0 +1,19 @@
+{
+  "name": "zen",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev //#ready-watch",
+    "ready-watch": "node scripts/ready-watch.mjs",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "turbo": "latest",
+    "prettier": "^3.9.6",
+    "typescript": "^6.0.3"
+  },
+  "packageManager": "pnpm@11.25.0"
+}
