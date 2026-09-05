@@ -2,3 +2,5 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 @import "ui-library/theme.css";
+
+@source "../../../ui-library/src/**/*.{ts,tsx}";

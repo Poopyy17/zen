@@ -1,9 +1,9 @@
-import { Button } from "ui-library";
+import { AuthCard } from "@/components/auth-card";
 
 export default function Home() {
   return (
-    <div className="flex flex-1 items-center justify-center">
-      <Button>Hello from ui-library</Button>
+    <div className="flex flex-1 items-center justify-center bg-muted/40 p-6">
+      <AuthCard />
     </div>
   );
 }
